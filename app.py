@@ -7,14 +7,14 @@ app = Flask(__name__)
 
 class DB:
     def __init__(self):
-        self.db = MySQLdb.connect(db='lab')
+        self.db = MySQLdb.connect(unix_socket='/app/mysql/mysql.sock', db='lab')
 
     def query(self, sql):
         try:
             cur = self.db.cursor()
             cur.execute(sql)
         except (AttributeError, MySQLdb.OperationalError):
-            self.db = MySQLdb.connect(db='lab')
+            self.db = MySQLdb.connect(unix_socket='/app/mysql/mysql.sock', db='lab')
             cur = self.db.cursor()
             cur.execute(sql)
 
