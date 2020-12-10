@@ -1,0 +1,8 @@
+{
+    "name": "Some SQLi Lab",
+    "description": "Blacklist-based SQLi protection bypass lab",
+    "repository": "https://github.com/suam-team/some-sqli-lab",
+    "logo": "https://suam.wtf/favicon-32x32.png",
+    "keywords": ["hacking", "lab", "web"],
+    "stack": "container"
+}

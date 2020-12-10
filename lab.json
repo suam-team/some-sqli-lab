@@ -1,0 +1,7 @@
+{
+    "name": "Some SQLi Lab",
+    "category": "Web",
+    "author": "bongtrop",
+    "flag": "c258033b71b17a13ac2c114ced7f24d3,41d4b69de01869e6ef5fcb5cc76b695b,e7f32c7c554f428d5a83e5103cb16344,3b27df1c8693ea461dbd53913880411f3499a768a89238e68dd486c65a661b3198b6d753ae5b6b0698dc20537d928039e6a2b69fbdf0a8cb9623bc85,968f191012dd5f4cf0b2b21c1ebbee63",
+    "detail": "Blacklist-based SQLi protection bypass lab"
+}
