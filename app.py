@@ -22,7 +22,7 @@ class DB:
 
 db = DB()
 
-blacklist = ["information", "table", "column", "schema", "=", "<", ">", "schema", "or", "and", "-", "#", "/*", "*/", "flag", ";", "'", "\"", ".", "order", "concat", "hex", "@", "sleep", "|", "&", "join", "like", "regexp", "if", "else", "case", "benchmark", "then", "load", "file", "_", "match", "not", "null", "glob", "in", "as", "by", "offset", "limit", "having", "intersect", "except"]
+blacklist = ["information", "table", "column", "schema", "=", "<", ">", "schema", "or", "and", "-", "#", "/*", "*/", "flag", ";", "'", "\"", ".", "+", "!", "\\", "order", "concat", "hex", "@", "sleep", "|", "&", "join", "like", "regexp", "if", "else", "case", "benchmark", "then", "load", "file", "_", "match", "not", "null", "glob", "in", "as", "by", "offset", "limit", "having", "intersect", "except", "false", "true", "json"]
 
 def check(v):
     v = v.lower()
